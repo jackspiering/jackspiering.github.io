@@ -1,4 +1,8 @@
 site_name: Jack Spiering
+site_url: https://blog.spiering.me/
+nav:
+  - Home: index.md
+  - About: about.md
 theme:
   name: material
   features:
@@ -62,4 +66,5 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   
+copyright: Copyright &copy; 2023 Jack Spiering
 
