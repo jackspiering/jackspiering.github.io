@@ -41,6 +41,9 @@ plugins:
   - search
 
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jackspiering
   consent:
     title: Cookie consent
     description: >- 
