@@ -1,5 +1,10 @@
 site_name: Jack Spiering
+site_description: Blog of Jack Spiering
 site_url: https://blog.spiering.me/
+site_author: Jack Spiering
+
+copyright: Copyright &copy; 2023 Jack Spiering
+
 nav:
   - Home: index.md
   - About: about.md
@@ -16,6 +21,10 @@ theme:
     - navigation.expand
     - navigation.path
 
+  font:
+    text: "Noto Sans"
+    code: "Encode Sans Expanded"
+  
   language: en
   palette:
 
@@ -56,7 +65,6 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -64,7 +72,4 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-  
-copyright: Copyright &copy; 2023 Jack Spiering
-
+  - pymdownx.superfences 
