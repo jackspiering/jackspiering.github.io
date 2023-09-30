@@ -5,6 +5,13 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+
   language: en
   palette:
 
@@ -17,18 +24,31 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
+
+
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to system preference
+
 plugins:
   - search
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
 
 markdown_extensions:
   - pymdownx.highlight:
